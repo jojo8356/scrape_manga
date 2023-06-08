@@ -34,7 +34,7 @@ def back():
 
 anime = "https://www.scan-vf.net/my-hero-academia/chapitre-1/1".split("/")[3]
 
-
+print("commencement du scrapage")
 def scrape_all_chapters(title_anime):
     """
     Scrapes les liens des images pour tous les chapitres d'un anime donné.
